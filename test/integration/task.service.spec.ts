@@ -1,9 +1,9 @@
 import { Test, TestingModule } from '@nestjs/testing';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Types } from 'mongoose';
-import { TaskService } from '../src/task/task.service';
-import { Task, TaskDocument, TaskSchema } from '../src/task/schemas/task.schema';
-import { TaskDto } from '../src/task/dto/task.dto';
+import { TaskService } from '../../src/task/task.service';
+import { Task, TaskDocument, TaskSchema } from '../../src/task/schemas/task.schema';
+import { TaskDto } from '../../src/task/dto/task.dto';
 import 'dotenv/config';
 
 describe('TaskService', () => {

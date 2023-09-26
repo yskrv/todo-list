@@ -1,4 +1,4 @@
-import { TaskDto } from '../src/task/dto/task.dto';
+import { TaskDto } from '../../src/task/dto/task.dto';
 import { validate } from 'class-validator';
 
 describe('TaskDto', () => {
