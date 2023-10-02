@@ -17,7 +17,9 @@
     "test:watch": "jest --watch",
     "test:stress": "ts-node ./test/stress/stress.test.ts",
     "test:unit": "jest test/unit",
-    "test:integration": "jest test/integration"
+    "test:integration": "jest test/integration",
+    "test:smoke": "jest test/smoke"
+
   },
   "dependencies": {
     "@nestjs/common": "^10.0.0",
